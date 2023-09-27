@@ -1,3 +1,3 @@
 # store
 
-https://ervservesh.github.io/store/
+https://ervservesh.github.io/mycompleteintro/
