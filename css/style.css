@@ -8,8 +8,8 @@ theme.
 ---------------------------------------------------- */
 /*=====================================================================
 @Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
+@Developed By: Servesh Mishra
+Author E-mail: ervservesh@gmail.com
 
 =====================================================================*/
 /*----------------------------------------------------*/
@@ -147,10 +147,22 @@ button:focus {
 .main_title h2 {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   line-height: 50px;
   text-transform: uppercase;
+  position: relative;
 }
+.main_title h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    background: #f05a24;
+    width: 53px;
+    height: 7px;
+}
+.margin-auto::after{ margin:auto; }
 
 @media (max-width: 991px) {
   .main_title h2 br {
@@ -3603,6 +3615,8 @@ h6 {
 
 .single_portfolio {
   position: relative;
+  height: 210px;
+  overflow: hidden;
 }
 
 .single_portfolio .overlay {
