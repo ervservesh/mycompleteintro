@@ -307,7 +307,7 @@ button:focus {
 
 .header_area .navbar {
   background: transparent;
-  padding: 0px;
+  padding: 10px 0;
   border: 0px;
   border-radius: 0px;
   width: 100%;
