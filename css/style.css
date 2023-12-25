@@ -1,13 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
 /*=====================================================================
-@Template Name: HostHub Construction 
 @Developed By: Servesh Mishra
 Author E-mail: ervservesh@gmail.com
 
@@ -62,11 +53,11 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  outline: none;
+  outline: 1px solid #f05a24;
 }
 
 button:focus {
-  outline: none;
+  outline: 1px solid #f05a24;
   box-shadow: none;
 }
 
