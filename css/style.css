@@ -395,13 +395,14 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
-  line-height: 45px;
+  line-height: 30px;
   color: #000000;
-  padding: 0px 30px;
+  padding: 0px 10px;
   transition: all 150ms linear;
   display: block;
   text-transform: capitalize;
   margin-right: 0px;
+  font-size: 13px;
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
