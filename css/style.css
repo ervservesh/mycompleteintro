@@ -3365,6 +3365,7 @@ h6 {
 
 .feature_item img {
   margin-bottom: 35px;
+  max-width: 70px;
 }
 
 .feature_item h4 {
