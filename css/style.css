@@ -254,13 +254,13 @@ button:focus {
   border-radius: 5px;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  background-image: linear-gradient(to right, #f05a24 0%, #f77343 100%), radial-gradient(circle at top left, #f77343, #fb7646);
   border: double 2px transparent;
   box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
 }
 .primary_btn:hover{
-  background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
-  border: 2px solid #854fee;
+  background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #f05a24, #f77343);
+  border: 2px solid #f05a24;
   color: #222222;
   box-shadow: none;
   background-clip: border-box;
@@ -562,6 +562,7 @@ button:focus {
   font-size: 55px;
   line-height: 60px;
   margin-bottom: 25px;
+  color: #f05a24;
 }
 
 @media (max-width: 1024px) {
